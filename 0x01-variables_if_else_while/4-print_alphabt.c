@@ -10,13 +10,13 @@ int main(void)
 
 	for (y = 'a'; y <= 'z'; y++)
 	{
-		if (y != 'e' && y != 'q') 
-		{ 
-		       	putchar(y);
-		}		       
+		if (y != 'e' && y != 'q')
+		{
+			putchar(y);
+		}
 		else
-	        { 
-                } 
+		{
+		}
 	}
 	putchar('\n');
 	return (0);
